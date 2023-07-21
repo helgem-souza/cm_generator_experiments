@@ -3,7 +3,7 @@
 ##Note: given that the authors are brazillian some terms may be in Portuguese
 
 #Used packages
-pacman::p_load(gencortidyverse, clusterGeneration, MASS, gencor, mvtnorm, janitor, ggridges, data.table)
+pacman::p_load(gencor, tidyverse, clusterGeneration, MASS, gencor, mvtnorm, janitor, ggridges, data.table)
 
 #Sets the work directory
 setwd(choose.dir())
